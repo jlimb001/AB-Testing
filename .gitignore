@@ -1,0 +1,60 @@
+@"
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+*.pkl
+*.h5
+*.parquet
+
+# Analysis outputs
+figures/
+plots/
+outputs/
+results/
+*.png
+*.jpg
+*.pdf
+
+# IDE related
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+"@ | Out-File -FilePath .gitignore -Encoding utf8
